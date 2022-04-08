@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Moved a and p toward top of stylesheet */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -73,36 +74,10 @@ p {
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 20px;  
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Changed all div classes within <div class="content"> to one singular class "services" to make stylesheet more efficient */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,6 +94,32 @@ p {
 .services h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+/* Moved everything within <div class="content"> up to line 83 to follow semantic structure of HTML */
+
+/* Was able to consolidate stylesheet by using singular "benefits" class in the HTML, instead of multiple IDs */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 .footer {
