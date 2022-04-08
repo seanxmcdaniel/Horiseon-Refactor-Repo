@@ -42,3 +42,15 @@ to match the flow of the HTML.
 
 I was able to do the same type of consolidation in the code shown above. The ".benefits" selectors used to be spread out to 10 different selectors 
 because they were assigned to four different id's in the HTML. I was able to consolidate to just three selectors, while maintaining appearance and functionality by assigning to one singular class, "benefits". 
+
+### Link to Deployed Application
+
+https://seanxmcdaniel.github.io/Horiseon-Refactor-Repo/
+
+### Link to Repository 
+
+SSH :
+git@github.com:seanxmcdaniel/Horiseon-Refactor-Repo.git
+
+HTTPS: 
+https://github.com/seanxmcdaniel/Horiseon-Refactor-Repo.git
